@@ -1,0 +1,22 @@
+# Level: Kithgard Dungeon
+# Goal: Defeat the ogres and grab the gem.
+
+# The code here is just a simple example of the kind of code used in CodeCombat levels.
+
+# Move towards the enemy.
+hero.moveRight()
+
+# Attack the enemy.
+hero.attack('Krogg')
+
+# Keep moving towards the gem.
+hero.moveRight()
+hero.moveDown()
+
+# Grab the gem.
+hero.moveRight()
+
+# Move towards the exit.
+hero.moveRight()
+hero.moveUp()
+hero.moveRight()
